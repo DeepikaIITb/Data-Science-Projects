@@ -1,4 +1,4 @@
-This file is from my Kaggle profile link to the dataset is: https://www.kaggle.com/code/deepika125/extrovert-and-introvert-behavioral-analysis-logreg/edit
+This file is from my Kaggle profile link to the dataset is: https://www.kaggle.com/code/deepika125/extrovert-and-introvert-behavioral-analysis-logreg
 This is all about making life easy to identify the personality as extrovert or introvert.
 This can help you identify your pluses and minuses to be the extrovert or introvert may be.
 Please read the real description below:
