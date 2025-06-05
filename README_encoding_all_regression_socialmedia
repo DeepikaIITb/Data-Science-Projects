@@ -1,6 +1,7 @@
 https://www.kaggle.com/code/deepika125/encoding-and-all-regressions
 
 # Regression Modeling with Categorical Encoding and Model Comparison
+
 This project demonstrates the full workflow of applying regression models on a dataset with both categorical and numerical features. 
 It includes data preprocessing using encoding techniques and evaluation of multiple regression models.
 
