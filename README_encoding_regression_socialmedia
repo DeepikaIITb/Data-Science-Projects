@@ -1,0 +1,36 @@
+https://www.kaggle.com/code/deepika125/encoding-and-all-regressions
+
+# Regression Modeling with Categorical Encoding and Model Comparison
+This project demonstrates the full workflow of applying regression models on a dataset with both categorical and numerical features. 
+It includes data preprocessing using encoding techniques and evaluation of multiple regression models.
+
+Data Preprocessing: Categorical columns such as 'Country' were encoded using one-hot encoding. 
+The top 10 most frequent countries were converted into binary columns, while all others were grouped under an "Others" column. 
+The 'Academic_Level' column was manually mapped to numerical values: {"Highschool": 0, "Undergraduate": 1, "Graduate": 2}. 
+StandardScaler was used to scale features for models sensitive to feature magnitude like SVR and MLPRegressor.
+
+Regression Models Applied:
+-- Linear Regression
+-- Polynomial Regression (failed due to exploding feature values without scaling)
+-- Decision Tree Regressor
+-- Random Forest Regressor
+-- Gradient Boosting Regressor
+-- Support Vector Regressor (default and tuned using GridSearchCV)
+-- K-Nearest Neighbors Regressor
+-- MLPRegressor (Neural Network)
+
+Model Evaluation was done using Mean Squared Error (MSE) and R² Score. 
+Random Forest achieved the best performance (R² ≈ 0.9882), followed by Gradient Boosting and Decision Tree. 
+Polynomial Regression failed with a huge negative R² due to unscaled high-degree features. 
+KNN performed the worst, while SVR and MLPRegressor performed well after scaling.
+
+Key Learnings:
+-- Scaling is essential for SVR and MLP.
+-- Tree-based models perform well without scaling and capture non-linearity.
+-- Polynomial regression can explode without proper feature scaling.
+-- One-hot encoding with frequency-based filtering (Top 10 + "Others") balances dimensionality and expressiveness.
+
+This project uses Python with libraries like Pandas, Scikit-learn, and optionally Matplotlib/Seaborn for visualization. 
+It serves as a template for structured regression modeling tasks involving mixed-type data.
+
+📌 Maintained by Deepika Yadav (deepikayadaviit@gmail.com)
