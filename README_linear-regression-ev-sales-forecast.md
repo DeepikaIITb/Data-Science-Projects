@@ -1,3 +1,6 @@
+https://www.kaggle.com/code/deepika125/linear-regression-ev-sales-forecast
+
+
 # Linear Regression for EV Sales Forecasting
 This project demonstrates a basic yet insightful implementation of Linear Regression for forecasting Electric Vehicle (EV) sales. The workflow covers data preprocessing, handling missing values, feature scaling, and applying regression with performance evaluation.
 
